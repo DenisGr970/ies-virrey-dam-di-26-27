@@ -21,7 +21,7 @@ println(negatives)
 val tripled = numbers.map { toTripled }
 
 // FUNCTION TYPES
- 
+
 
 
 
