@@ -30,7 +30,17 @@ fun main () {
 
     calculateTwo(a = 2, b = 2, operation = {a,b -> a+b})
 println(calculateTwo(a = 2, b = 2, operation = {a,b -> a+b}))
+
+    // Exercise 3 //
+    subtract(a = 2,b = 2, operation = {a,b -> a-b})
+    multiply(a = 2,b = 2, operation = {a,b -> a*b})
+    divide(a = 2,b = 2, operation = {a,b -> a/b})
+
+
+
 }
+
+
 
 
 // Training lambdas
