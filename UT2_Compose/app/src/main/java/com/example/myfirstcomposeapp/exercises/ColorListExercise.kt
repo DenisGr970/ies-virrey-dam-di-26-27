@@ -11,7 +11,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.Row
-
+import androidx.compose.foundation.layout.fillMaxSize
 
 
 @Preview
@@ -35,10 +35,10 @@ fun titleBox() {
     }
 
     Text(
-text="List of colors",
+"List of Colors",
         color = Color.White,
-        fontSize =  12.sp,
-        fontAlignment = fontAlignment.Center,
+        fontSize =  16.sp,
+        textAlign = TextAlign.Center,
         fontWeight = FontWeight.Bold,
 
     )
