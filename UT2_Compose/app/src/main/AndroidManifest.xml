@@ -29,6 +29,18 @@
             android:label="@string/title_activity_exercise1"
             android:theme="@style/Theme.MyFirstComposeApp"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".exercises.Warmup01"
+            android:exported="false"
+            android:label="@string/title_activity_warmup01"
+            android:theme="@style/Theme.MyFirstComposeApp"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".exercises.ui.theme.Warmup02"
+            android:exported="false"
+            android:label="@string/title_activity_warmup02"
+            android:theme="@style/Theme.MyFirstComposeApp"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
